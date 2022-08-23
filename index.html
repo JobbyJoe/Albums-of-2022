@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Albums of 2022</title>
+<link rel="icon" type="image/x-icon"
+  href="Images/favicon.ico">
+<meta charset="utf-8">
+<meta name="width=device-width, initial-scale=1">
+<style>
+  header {
+    background-color: rgb(142, 169, 219);
+    padding: 16px 8px 16px 8px;
+    border: 2px solid black;
+    border-radius: 4px
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+  }
+  nav {
+    background-color: rgb(217,225, 242);
+    padding: 8px 8px 8px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: left;
+    max-height: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  footer {
+    background-color: rgb(217, 225, 242);
+    padding: 8px 8px 8px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+    max-height: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .back-button {
+    background-color: rgb(217, 225, 242);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    border-color: rgb(118, 150, 209);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .back-button:hover {
+    background-color: rgb(118, 150, 209);
+    color: rgb(255, 255, 255);
+  }
+
+  .back-button:active {
+    opacity: 0.8;
+  }
+
+  .next-button {
+    background-color: rgb(217,225, 242);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    border-color: rgb(118, 150, 209);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .next-button:hover {
+    background-color: rgb(118, 150, 209);
+    color: rgb(255, 255, 255);
+  }
+
+  .next-button:active {
+    opacity: 0.8;
+  }
+
+  .page-number {
+    font-size: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  section {
+    background-color: rgb(142, 169, 219);
+    padding: 16px 8px 16px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+
+  article {
+    background-color:rgb(217, 225, 242);
+    font-size: 18px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    max-height: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  span {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .amber-box {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  .red-box {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  .green-box {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>
+    Albums of 2022
+  </h1>
+</header>
+<section>
+  <nav>
+    <button class ="back-button">
+      Back
+    </button>
+    <a class="page-number" href="index.html">
+      1
+    </a>
+    <a class="page-number" href="">
+      2
+    </a>
+    <a class="page-number" href="">
+      3
+    </a>
+    <a class="page-number" href="">
+      4
+    </a>
+    <a class ="page-number" href="">
+      5
+    </a>
+    <button class="next-button">
+      Next
+    </button>
+  </nav>
+  <article>
+    <p>
+      <b>Album Reviews</b>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Mydreamfever
+    </p>
+    <p>
+      <b>Album:</b> Rough and Beautiful Place
+    </p>
+    <p>
+      <b>Release</b> Date: 1st January
+    </p>
+    <img src="Images/rough-and-beautiful-place.jpg"
+      alt="Rough and Beautiful Place">
+    <p>
+      <b>Description:</b> South Korean ambient artist, Side project of
+      Parannoul, Pleasant, Summer Garden, It's decent overall
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="amber-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Daniel Son & Futurewave
+    </p>
+    <p>
+      <b>Album:</b> Son Tzu & the Wav.God
+    </p>
+    <p>
+      <b>Release</b> Date: 1st January
+    </p>
+    <img src="Images/son-tzu-the-wavgod.jpg"
+      alt="Son Tzu & the Wav.God">
+    <p>
+      <b>Description:</b> Boom bap artist, Most interesting track,
+      "Son Set (Feat. Saipher Soze)" Rest of the album wasn't special
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="red-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> KEP1ER
+    </p>
+    <p>
+      <b>Album:</b> FIRST IMPACT
+    </p>
+    <p>
+      <b>Release</b> Date: 3rd January
+    </p>
+    <img src="Images/first-impact.jpg"
+      alt="FIRST IMPACT">
+    <p>
+      <b>Description:</b> Girl group K-Pop EP, Liked the backing vocals
+      in the track "0.0.0 (Kep1er Ver.)" made it feel kinda epic, Rest was meh
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="red-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Burial
+    </p>
+    <p>
+      <b>Album:</b> Antidawn
+    </p>
+    <p>
+      <b>Release</b> Date: 6th January
+    </p>
+    <img src="Images/antidawn.jpg"
+      alt="Antidawn">
+    <p>
+      <b>Description:</b> Ambient EP, Soft and relaxing, Rain pitter patter,
+      Bizarre echoed static vocals, Not particulary special, An experience
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="red-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Pogo
+    </p>
+    <p>
+      <b>Album:</b> Cosmoluxe
+    </p>
+    <p>
+      <b>Release</b> Date: 7th January
+    </p>
+    <img src="Images/cosmoluxe.jpg"
+      alt="Cosmoluxe">
+    <p>
+      <b>Description:</b> Plunderphonics, Catchy with also chill with "PATACAKE",
+       The bass line in "THE BOSS" is great, I like all the tracks
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="green-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> The Weekend
+    </p>
+    <p>
+      <b>Album:</b> Dawn FM
+    </p>
+    <p>
+      <b>Release</b> Date: 7th January
+    </p>
+    <img src="Images/dawn-fm-2.jpg"
+      alt="DAWN FM">
+    <p>
+      <b>Description:</b> Synthpop and Synth Funk, Jim Carrey radio, High beat
+      tempo, Vocals aren't different, Charm with the album
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="green-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Gunna
+    </p>
+    <p>
+      <b>Album:</b> DS4EVER
+    </p>
+    <p>
+      <b>Release</b> Date: 7th January
+    </p>
+    <img src="Images/ds4ever.jpg"
+      alt="DS4EVER">
+    <p>
+      <b>Description:</b> Trap artist, Casey Tatum vocals, Bass, About bitches, Really 
+      nothing special, Mind numbing
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="red-box"></span>
+    </p>
+  </article>
+  <article>
+    <p>
+      <b>Artist:</b> Twin Atlantic
+    </p>
+    <p>
+      <b>Album:</b> Transparency
+    </p>
+    <p>
+      <b>Release</b> Date: 7th January
+    </p>
+    <img src="Images/transparency.jpg"
+      alt="Transparency">
+    <p>
+      <b>Description:</b> Scottish Pop rock artist, Liked the spoken words 
+      in "Bang on The Gong", But the vocals and instrumentals need improving
+    </p>
+    <p>
+      <b>Yay/Nay?</b> <span class="red-box"></span>
+    </p>
+  </article>
+<footer>
+  <button class ="back-button">
+    Back
+  </button>
+  <a class="page-number" href="index.html">
+    1
+  </a>
+  <a class="page-number" href="">
+    2
+  </a>
+  <a class="page-number" href="">
+    3
+  </a>
+  <a class="page-number" href="">
+    4
+  </a>
+  <a class ="page-number" href="">
+    5
+  </a>
+  <button class="next-button">
+    Next
+  </button>
+</footer>
+</section>
+</body>
+</html>
